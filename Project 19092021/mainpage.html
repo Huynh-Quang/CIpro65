@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/home.css">
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- Owl Carousel -->
+    <script type="text/javascript" src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <!-- Popper JS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+    </script>
+    <!-- Latest compiled JavaScript -->
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="left col-12 col-lg-2 d-flex flex-column fixed-top">
+            <a href="#" class="navbar-branch form-inline d-flex justify-content-center">
+                <img src="./img/Logo/LogoMP3 new.png" class="mr-2">
+                Life
+            </a>
+            <hr>
+            <ul class="t1 mb-3"
+                style="list-style-image: url('https://cdn.freehost.page/wp-content/uploads/2021/02/bullet-yellow.png');">
+                <li class="method mt-2 mb-2"><a href="#">Nhạc mới</a></li>
+                <li class="method mt-2 mb-2"><a href="#">Thể loại</a></li>
+                <li class="method mt-2 mb-2"><a href="#">Top 100</a></li>
+            </ul>
+            <ul class="t1 mt-3 mb-3"
+                style="list-style-image: url('https://cdn.freehost.page/wp-content/uploads/2021/02/bullet-yellow.png');">
+                <li class="method mt-2 mb-2"><a href="#">Cá nhân</a></li>
+                <li class="method mt-2 mb-2"><a href="#">Yêu thích</a></li>
+                <li class="method mt-2 mb-2"><a href="#">Playlist</a></li>
+                <li class="method mt-2 mb-2"><a href="#">Đã nghe gần đây</a></li>
+            </ul>
+            <div class="suggestion text-center mt-3">
+                <p class="mt-2">Khám phá thêm tính năng mới dành riêng cho bạn</p>
+                <button class="mb-2 mt-2" type="button" onclick="">Đăng nhập</button>
+            </div>
+        </div>
+
+        <div class="row fixed-top">
+            <div class="col-12 col-lg-2"></div>
+            <div class="header col-12 col-lg-10">
+                <div class="row">
+                    <form class="form-inline col-12 col-lg-8">
+                        <input type="search" placeholder="Tìm kiếm bài hát ...">
+                    </form>
+                    <div class="col-12 col-lg-4">
+                        <div class="text row">
+                            <button type="submit" class="btn col-12 col-lg-4">Upload</button>
+                            <button type="submit" class="login textHeader col-12 col-lg-4" onclick="">Đăng nhập</button>
+                            <button type="submit" class="textHeader col-12 col-lg-4" onclick="">Đăng ký</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slideshowHead row">
+            <div class="col-12 col-lg-2"></div>
+            <div class="owl-carousel col-12 col-lg-10 d-inlineblock justify-content-center align-items-center">
+                <div class="item">
+                    <a class="myslide" href="#">
+                        <div class="avatar" id="avatar1"></div>
+                        <p class="songName" id="songName1"></p>
+                        <p class="singer" id="singer1"></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="myslide" href="#">
+                        <div class="avatar" id="avatar2"></div>
+                        <p class="songName" id="songName2"></p>
+                        <p class="singer" id="singer2"></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="myslide" href="#">
+                        <div class="avatar" id="avatar3"></div>
+                        <p class="songName" id="songName3"></p>
+                        <p class="singer" id="singer3"></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="myslide" href="#">
+                        <div class="avatar" id="avatar4"></div>
+                        <p class="songName" id="songName4"></p>
+                        <p class="singer" id="singer4"></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="myslide" href="#">
+                        <div class="avatar" id="avatar5"></div>
+                        <p class="songName" id="songName5"></p>
+                        <p class="singer" id="singer5"></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="myslide" href="#">
+                        <div class="avatar" id="avatar6"></div>
+                        <p class="songName" id="songName6"></p>
+                        <p class="singer" id="singer6"></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="myslide" href="#">
+                        <div class="avatar" id="avatar7"></div>
+                        <p class="songName" id="songName7"></p>
+                        <p class="singer" id="singer7"></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="myslide" href="#">
+                        <div class="avatar" id="avatar8"></div>
+                        <p class="songName" id="songName8"></p>
+                        <p class="singer" id="singer8"></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="myslide" href="#">
+                        <div class="avatar" id="avatar9"></div>
+                        <p class="songName" id="songName9"></p>
+                        <p class="singer" id="singer9"></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="myslide" href="#">
+                        <div class="avatar" id="avatar10"></div>
+                        <p class="songName" id="songName10"></p>
+                        <p class="singer" id="singer10"></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="myslide" href="#">
+                        <div class="avatar" id="avatar11"></div>
+                        <p class="songName" id="songName11"></p>
+                        <p class="singer" id="singer11"></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="myslide" href="#">
+                        <div class="avatar" id="avatar12"></div>
+                        <p class="songName" id="songName12"></p>
+                        <p class="singer" id="singer12"></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme row">
+            <div class="col-12 col-lg-2"></div>
+            <div class="col-12 col-lg-10">
+                <h2 class="row titleX">QUỐC GIA</h2>
+                <div class="row nation">
+                    <a href="#" class="col-12 col-lg-3">
+                        <div class="textTitle nation1">
+                            <p>VIỆT NAM</p>
+                        </div>
+                    </a>
+                    <a href="#" class="col-12 col-lg-3">
+                        <div class="textTitle nation2">
+                            <p>US-UK</p>
+                        </div>
+                    </a>
+                    <a href="#" class="col-12 col-lg-3">
+                        <div class="textTitle nation3">
+                            <p>HOA NGỮ</p>
+                        </div>
+                    </a>
+                    <a href="#" class="col-12 col-lg-3">
+                        <div class="textTitle nation4">
+                            <p>HÀN QUỐC</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-lg-2"></div>
+            <div class="col-12 col-lg-10">
+                <h2 class="row titleX">NGHE NHIỀU</h2>
+                <a class="row topsong" id="topsong"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./JS/data.js"></script>
+</body>
+
+<script type="text/javascript" src="./JS/slideshow.js"></script>
+
+</html>

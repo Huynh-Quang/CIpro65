@@ -1,0 +1,302 @@
+body {
+    padding: 0;
+    background-color: rgb(235, 224, 209);
+}
+
+.container-fluid {
+    max-height: max-content;
+    width: 100%;
+}
+
+.left {
+    background-color: rgb(53, 36, 68);
+    height: 100%;
+    z-index: 50;
+}
+
+.left>.navbar-branch {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    height: 10%;
+}
+
+.left a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.left a img {
+    border-radius: 50%;
+    width: 70px;
+}
+
+.left .t1 {
+    border-left: 1px solid rgb(211, 200, 181);
+}
+
+.left .method>a {
+    color: rgb(211, 200, 181);
+    font-weight: bold;
+}
+
+.left .method a {
+    font-size: 15px;
+}
+
+.left .method>a:hover {
+    color: white;
+}
+
+.left .suggestion {
+    border: 1px solid rgb(211, 200, 181);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.left>.suggestion {
+    background-color: rgb(102, 50, 102);
+}
+
+.left>.suggestion>.mt-2 {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.left>.suggestion>.mb-2 {
+    color: rgb(102, 50, 102);
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+.header {
+    background-color: rgb(53, 36, 68);
+    height: 10%;
+    z-index: 25;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-inline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-inline input {
+    width: 75%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.textHeader {
+    font-weight: 400;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 36, 68);
+    text-decoration: none;
+    border: none;
+}
+
+.textHeader:hover {
+    color: white;
+    background: rgb(97, 67, 124);
+}
+
+.btn {
+    border-radius: 20px;
+    background: tomato;
+    color: white;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.slideshowHead {
+    margin-top: 7%;
+}
+
+
+/*Slideshow*/
+.owl-carousel {
+    width: 80%;
+}
+
+.owl-prev {
+    background: url('https://res.cloudinary.com/milairagny/image/upload/v1487938188/left-arrow_rlxamy.png') left center no-repeat;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    z-index: 1000;
+    left: 1%;
+    cursor: pointer;
+    color: transparent;
+    margin-top: -27px;
+}
+
+.owl-next {
+    background: url('https://res.cloudinary.com/milairagny/image/upload/v1487938220/right-arrow_zwe9sf.png') right center no-repeat;
+    background-size: 100px;
+    height: 60px;
+    position: absolute;
+    top: 40%;
+    width: 30px;
+    z-index: 1000;
+    right: 1%;
+    cursor: pointer;
+    color: transparent;
+    /* margin-top: -27px; */
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+    opacity: 5.0;
+    background-color: burlywood;
+}
+
+/* Icon CSS */
+.item {
+    position: relative;
+    width: 80%;
+}
+
+.item>.myslide {
+    width: 100%;
+}
+
+.item>.myslide>.avatar>i {
+    display: none;
+    font-size: 50px;
+    color: black;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.item>.myslide {
+    width: 180px;
+    height: 180px;
+    color: black;
+    font-weight: 400;margin-left: 10%;
+    margin-right: 10%;
+}
+
+.item>.myslide:hover {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.item>.myslide>.avatar>img {
+    width: 240px;
+    box-shadow: 5px 5px 5px 0px rgb(121, 119, 119);
+}
+
+.item>.myslide>.avatar>img:hover {
+    filter: brightness(75%);
+}
+
+.songName {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.singer {
+    margin-left: 10px;
+}
+
+/*Quốc gia*/
+.titleX {
+    margin: 0% 1% 0% 2%;
+    font-size: 25px;
+}
+.nation {
+    margin: 2% 1% 4% 1%;
+}
+
+.col-12:hover {
+    text-decoration: none;
+}
+
+.textTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-weight: 900;
+    font-size: 25px;
+    width: auto;
+    color: black;
+    z-index: 50;
+    padding: 5px 5px 5px 5px;
+}
+
+.textTitle:hover {
+    filter: brightness(80%);
+    box-shadow: 5px 5px 5px 0px rgb(121, 119, 119);
+    text-decoration: none;
+    color: black;
+}
+
+.nation1 {
+    background-image: url('https://toigingiuvedep.vn/wp-content/uploads/2021/05/hinh-anh-am-nhac-lam-background-powerrpoint.jpg');
+    background-size: cover;
+    filter: brightness(120%);
+}
+
+.nation2 {
+    background-image: url('https://khoanh24.com/uploads/w750//2018/06/06/am-nhac-7505b173a467c0cb_229f4c05efd68db462cc2033af4b2b24.jpg');
+    background-size: cover;
+    filter: brightness(120%);
+}
+
+.nation3 {
+    background-image: url('http://images6.fanpop.com/image/photos/38400000/music-piano-pandoraxd-38401743-1440-900.jpg');
+    background-size: cover;
+    filter: brightness(120%);
+}
+
+.nation4 {
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-music-headset-red-simple-banner-image_174717.jpg');
+    background-size: cover;
+    filter: brightness(120%);
+}
+
+/*Nghe nhiều*/
+.topsong {
+    margin: 2% 1% 4% 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   align-items: center;
+}
+.topsong:hover {
+    text-decoration: none;
+}
+.aSong {
+    margin: 0px 13px 25px 13px;
+    color: black;
+    font-weight: 400;
+}
+.aSong:hover {
+    text-decoration: none;
+    color: black;
+}
+.aSong > img {
+    width: 238px;
+    height: 238px;
+}
+.aSong > img:hover {
+    filter: brightness(80%);
+    box-shadow: 5px 5px 5px 0px rgb(121, 119, 119);
+}
